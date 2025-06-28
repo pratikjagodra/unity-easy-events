@@ -14,7 +14,7 @@ namespace PJ.Easy.Events
             UnityEngine.Debug.Log($"{TAG} {message}");
         }
 
-        public static void AddListener<T>(IEventListener<T> listener) where T : EventBase
+        public static void AddListener<T>(IEventListener<T> listener) where T : struct
         {
             if (listener == null)
             {
@@ -34,7 +34,7 @@ namespace PJ.Easy.Events
                 Log($"Listener already exist for type {typeof(T)}");
         }
 
-        public static void RemoveListener<T>(IEventListener<T> listener) where T : EventBase
+        public static void RemoveListener<T>(IEventListener<T> listener) where T : struct
         {
             if (listener == null)
             {
@@ -54,7 +54,7 @@ namespace PJ.Easy.Events
                 Log($"No listener found for type {typeof(T)}");
         }
 
-        public static void CallEvent<T>(T eventData) where T : EventBase
+        public static void CallEvent<T>(T eventData) where T : struct
         {
             if (!eventMap.ContainsKey(typeof(T)))
             {
