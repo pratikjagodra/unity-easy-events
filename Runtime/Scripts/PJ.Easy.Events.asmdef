@@ -1,6 +1,6 @@
 {
-    "name": "PJ.EasyEvents",
-    "rootNamespace": "PJ.EasyEvents",
+    "name": "PJ.Easy.Events",
+    "rootNamespace": "PJ.Easy.Events",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

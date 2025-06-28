@@ -1,7 +1,6 @@
-
 using System.Collections.Generic;
 
-namespace PJ.EasyEvents
+namespace PJ.Easy.Events
 {
     public static class EventManager
     {

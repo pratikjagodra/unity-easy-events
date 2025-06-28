@@ -1,5 +1,5 @@
 {
-    "name": "com.pj.easyevents",
+    "name": "com.pj.easy.events",
     "version": "1.0.0",
     "displayName": "EasyEvents",
     "description": "A custom unity package that makes observer pattern structured and easy to implement.",
