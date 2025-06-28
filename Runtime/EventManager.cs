@@ -1,10 +1,8 @@
 
 using System.Collections.Generic;
 
-namespace PJ.EasyEvents.Runtime
+namespace PJ.EasyEvents
 {
-    public abstract class EventBase { }
-
     public static class EventManager
     {
         private static bool loggingEnabled = true;

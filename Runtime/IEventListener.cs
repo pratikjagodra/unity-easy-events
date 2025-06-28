@@ -1,5 +1,5 @@
 
-namespace PJ.EasyEvents.Runtime
+namespace PJ.EasyEvents
 {
     public interface IEventListener { }
 
